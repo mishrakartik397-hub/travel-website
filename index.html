@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel & Tourism</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact */
+.contact {
+    background: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Grid */
+.places {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Content */
+.card-content {
+    padding: 15px;
+}
+
+/* Package */
+.package {
+    color: green;
+    font-weight: bold;
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #023e8a;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Explore the World 🌍</h1>
+    <p>Your Dream Travel Starts Here</p>
+</header>
+
+<div class="contact">
+    📞 972155604 | 📧 Nit.k999@gmail.com
+</div>
+
+<div class="container">
+
+<h2>Popular Tourist Places</h2>
+
+<div class="places">
+
+<!-- 1 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\tajmahal.jpg" alt="">
+<div class="card-content">
+<h3>Taj Mahal</h3>
+<p>Symbol of love located in Agra.</p>
+<p class="package">₹5,000 Package</p>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\goa.jpg" alt="">
+<div class="card-content">
+<h3>Goa</h3>
+<p>Famous for beaches and nightlife.</p>
+<p class="package">₹8,000 Package</p>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\manali.jpg" alt="">
+<div class="card-content">
+<h3>Manali</h3>
+<p>Beautiful hill station in Himachal.</p>
+<p class="package">₹7,500 Package</p>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\kerela.jpg" alt="">
+<div class="card-content">
+<h3>Kerala</h3>
+<p>Known for backwaters and greenery.</p>
+<p class="package">₹9,000 Package</p>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\jaipur.jpg" alt="">
+<div class="card-content">
+<h3>Jaipur</h3>
+<p>The Pink City of India.</p>
+<p class="package">₹6,000 Package</p>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\ladhak.jpg" alt="">
+<div class="card-content">
+<h3>Ladakh</h3>
+<p>Adventure and scenic landscapes.</p>
+<p class="package">₹12,000 Package</p>
+</div>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\mumbai.jpg" alt="">
+<div class="card-content">
+<h3>Mumbai</h3>
+<p>The city that never sleeps.</p>
+<p class="package">₹6,500 Package</p>
+</div>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\varanasi.jpg" alt="">
+<div class="card-content">
+<h3>Varanasi</h3>
+<p>Spiritual city on Ganga river.</p>
+<p class="package">₹4,500 Package</p>
+</div>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\ooty.jpg" alt="">
+<div class="card-content">
+<h3>Ooty</h3>
+<p>Queen of hill stations.</p>
+<p class="package">₹7,000 Package</p>
+</div>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<img src="C:\Users\USER\Downloads\delhi.jpg" alt="">
+<div class="card-content">
+<h3>Delhi</h3>
+<p>Capital city with rich history.</p>
+<p class="package">₹5,500 Package</p>
+</div>
+</div>
+
+</div>
+
+<h2>Booking / Enquiry Form</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<input type="text" placeholder="Destination">
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+</body>
+</html>
